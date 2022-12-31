@@ -1,37 +1,55 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+
+html {
+    background-color: lightblue;
+}
+
 header,
 footer {
     width: 100%;
-    height: 120px;
-    background-color: blue;
-    color: white;
+    background-color: lightblue;
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
 }
+
 h1,
 h2 {
     text-align: center;
 }
+
 img {
     display: block;
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    border: 5px solid white;
 }
+
+#dogCollage {
+    justify-content: center;
+    display: flex;
+
+}
+
 ul {
     padding-left: 40px;
     font-size: 20px;
 }
+
 p {
     text-align: center;
     font-size: 30px;
-  }
-  .card {
+}
+
+.card {
     width: 80%;
     margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
-  }
-  
+    border: 5px solid black;
+    box-shadow: 5px 10px whitesmoke;
+}
